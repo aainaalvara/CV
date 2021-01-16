@@ -1,0 +1,125 @@
+* {
+ margin: 0;
+ padding: 0;
+}
+.container{
+  height: 100vh;
+  width: 100%;
+  background-image: url(https://img.freepik.com/free-vector/gray-white-gradient-abstract-background_53876-60238.jpg?size=338&ext=jpg);
+  background-position: center;
+  background-size: cover;
+  padding: 0 5% 0 5%;
+  box-sizing: border-box;
+  position: relative;
+}
+.navbar{
+  width: 100%;
+  height: 15vh;
+  margin: auto;
+  display: flex;
+  align-items: center;
+}
+.logo{
+margin-top: 50px;
+  width: 150px;
+  cursor: pointer;
+}
+.cart{
+  width: 40px;
+  cursor: pointer;
+}
+nav{
+  flex: 1;
+  padding-left: 60px;
+  color: #6a7199;
+}
+nav ul li{
+  display: inline-block;
+  list-style: none;
+  margin: 0px 20px;
+}
+nav ul li a {
+  text-decoration: none;
+  color: #333;
+}
+.content h1{
+  font-size: 60px;
+  font-weight: 100;
+  margin: 24px auto 15px;
+  color: #232d60;
+}
+.content p{
+  font-size: 20px;
+  color: #6a7199;
+}
+.content{
+  margin:10% auto auto 10%;
+}
+.content .btn{
+  display: inline-block;
+  background: linear-gradient(45deg, #87adfe, #ff77cd);
+  border-radius: 6px;
+  padding: 10px 20px;
+  box-sizing: border-box;
+  text-decoration: none;
+  color: #fff;
+  box-shadow: 3px 8px 22px rgba(94,28,68,0.15);
+}
+
+.feature-img{
+  height: 65%;
+  position:absolute;
+  bottom: 30px;
+  right: 70px;
+  width: 550px;
+
+}
+
+#footer{
+background-color: #99a8b2;
+text-align: center;
+padding: 80px 50px 50px 150px;
+text-decoration: underline;
+ color: #fff;
+}
+
+ #footer a{
+   text-decoration: none;
+   color: #fff;
+   padding-right: 20px;
+   font-size: 14px;
+   text-align: center;
+}
+
+.arrow-icons{
+  margin-top: 30px;
+  font-size: 20px;
+}
+.offer{
+  background-color: #fff;
+ margin: 50px 80px 50px 100px;
+ height: 50%;
+
+}
+h2{
+  float:right;
+  font-size: 30px;
+  font-weight: 100;
+  width: 400px;
+  color: #232d60;
+  padding: 10px;
+  margin-right:180px;
+  margin-top: 50px;
+}
+.offer .btn{
+  display: inline-block;
+  background: linear-gradient(45deg, #87adfe, #ff77cd);
+  border-radius: 6px;
+  padding: 10px 20px;
+  margin-top: 20px;
+  box-sizing: border-box;
+  text-decoration: none;
+  color: #fff;
+  box-shadow: 3px 8px 22px rgba(94,28,68,0.15);
+  text-align:center;
+}
